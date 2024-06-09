@@ -160,11 +160,10 @@
 - Can you create a load balancer locally on your machine?
 - Explain the steps when a deployed application in K8s is accessed via a domain in the browser.
 - What is the type of Kubelet, and how does it get instantiated?
-- What are operators and custom resources in Kubernetes?
-- What are liveness probes and readiness probes?
+- operator vs controller vs custom resources
+- What are startup, liveness probes and readiness probes?
 - What happens if kubelet and kubeproxy are not available?
 - Can a Persistent Volume (PV) connect to multiple Persistent Volume Claims (PVC)? Is the relationship one-to-one?
-- operator vs controller
 
 ## K8S Troubleshooting
 

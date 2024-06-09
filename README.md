@@ -70,8 +70,8 @@
 - How to modify the entry point while running a container?
 - Can a Windows container run on Linux and vice versa?
 - What are namespaces and cgroups in Docker?
-- How can you reduce image build time, not size?
-- How can you reduce image build not size?
+- How can you reduce image build time?
+- How can you reduce image size?
 - How to secure docker image.
 
 ## Continuous Integration/Continuous Deployment (CI/CD)

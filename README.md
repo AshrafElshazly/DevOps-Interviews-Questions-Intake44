@@ -77,6 +77,9 @@
 - how to take snapshot for my running container?
 - docker commit vs docker tag
 - what is build, ship, and run concept?
+- Docker compose vs Docker stack
+- Docker swarm vs k8s
+- Docker Network types
 
 ## Continuous Integration/Continuous Deployment (CI/CD)
 

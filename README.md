@@ -69,13 +69,14 @@
 - What is the difference between `CMD` and `ENTRYPOINT` in Docker?
 - Explain the difference between `ADD` and `COPY` in Docker.
 - How to modify the entry point while running a container?
-- Can a Windows container run on Linux and vice versa?
+- Can a Windows container run on Linux?
 - What are namespaces and cgroups in Docker?
 - How can you reduce image build time?
 - How can you reduce image size?
 - How to secure docker image.
 - how to take snapshot for my running container?
 - docker commit vs docker tag
+- what is build, ship, and run concept?
 
 ## Continuous Integration/Continuous Deployment (CI/CD)
 

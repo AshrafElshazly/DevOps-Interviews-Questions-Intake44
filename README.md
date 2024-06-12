@@ -1,4 +1,4 @@
-# ITI Interviews questions Cloud Arch Intake 44 (DevOps)
+# DevOps Interview questions
 
 ## Ansible
 
@@ -73,6 +73,8 @@
 - How can you reduce image build time?
 - How can you reduce image size?
 - How to secure docker image.
+- how to take snapshot for my running container?
+- docker commit vs docker tag
 
 ## Continuous Integration/Continuous Deployment (CI/CD)
 
@@ -106,6 +108,9 @@
 - Create a Serverless architecture
 - SQS, RabitMQ, Lambda Function, Lambda@Edge, and Step Functions.
 - how to make temproray S3 Access link?
+- **Serverless function** – Piece of code that will be executed by a compute service, on demand.
+
+- **Lambda trigger**– The type of event that will make a Lambda (serverless) function run. This can be another AWS service or an external input.
 
 ### Networking
 
@@ -134,6 +139,7 @@
 - Difference Between User Mode and Kernel Mode
 - What is a kernel?
 - What is the difference between GPT and MBR?
+- tell me about special permession (uid + gid + sticky bit)
 
 ### Networking
 
@@ -157,6 +163,7 @@
 - What is the difference between `git fetch` and `git pull`?
 - What is the difference between `git rebase` and `git merge`?
 - How to stash changes in Git?
+- git merge conflict
 
 ## General Tech Concepts
 
@@ -172,6 +179,7 @@
 - What is the difference between a compiler and an interpreter?
 - What is the difference between source packages and binary packages?
 - What is swap space and its directory or file?
+- What is jinja2
 - **Authentication**
   - Who can access? (Username and Password, Certificate, Multi-Factor Authentication (MFA), Single Sign-On (SSO), OAuth third-party application using their Google or Facebook account)
 - **Authorization**
@@ -217,36 +225,6 @@
 - Your EC2 instance is not reachable via SSH. What troubleshooting steps would you take?
 
 - An application deployed on AWS Lambda is exceeding its memory limits. What can you do to troubleshoot and fix the issue?
-
-## Helm
-
-- What is Helm and why is it used?
-- How do you create a Helm chart?
-- What are the main components of a Helm chart?
-- How do you manage dependencies in Helm?
-- Explain the process of releasing a command with Helm.
-- How do you roll back a Helm release?
-
-## GitOps
-
-### Concepts
-
-- What is GitOps and how does it work?
-- What are the benefits of using GitOps?
-- How do you implement GitOps in a Kubernetes environment?
-- What are some popular GitOps tools?
-- How does GitOps handle deployments and rollbacks?
-
-## ELK Stack (Elasticsearch, Logstash, Kibana)
-
-- What is the ELK stack and what are its components?
-- How do Elasticsearch, Logstash, and Kibana interact with each other?
-- What are some common use cases for the ELK stack?
-- How to secure the ELK stack?
-- How to create visualizations in Kibana?
-- How to scale Elasticsearch for large data sets?
-- How to optimize search performance in Elasticsearch?
-- How to configure and manage Logstash pipelines?
 
 # CI/CD Cycle
 

@@ -164,6 +164,14 @@
 - What are startup, liveness probes and readiness probes?
 - What happens if kubelet and kubeproxy are not available?
 - Can a Persistent Volume (PV) connect to multiple Persistent Volume Claims (PVC)? Is the relationship one-to-one?
+- **Important**
+- How to make pod run as root user?
+- what is securityContext?
+- My application can't connect to database (check env vars, label, selectors, ports, svc name)
+- deployment can't create pods?! (check scedular and if need modify make it in /etc/kubernetes/manifest/)
+- deployment and replicaset create one pod only but the desired state is 2 (check kube-controller-manager and read logs)
+- deployment and replicaset create one pod only but the desired state is 2 (check mount point for pki)
+- controle plane can't connect to worker node (ssh to this node and check kubelet status, restart, journalctl -u kubelet , check cert path, fix in /var/lib/kubelet/config.yaml,kubelet is trying to connect to the API server on the controlplane node on port 6553. This is incorrect. To fix, correct the port on the kubeconfig file used by the kubelet. then `systemctl restart kubelet`)
 
 ## K8S Troubleshooting
 

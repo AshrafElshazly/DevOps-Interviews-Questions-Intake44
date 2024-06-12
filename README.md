@@ -11,6 +11,7 @@
 - What is a playbook in Ansible?
 - Is Ansible agent-based or agentless?
 - What to do if a needed module is not available in Ansible?
+- What is ansible galaxy
 
 ### Comparison
 

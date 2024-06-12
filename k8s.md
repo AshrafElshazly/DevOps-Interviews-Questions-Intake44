@@ -280,3 +280,12 @@
 20. **A Pod is unable to access a Kubernetes API or a service within the cluster due to RBAC restrictions. How would you troubleshoot and resolve this access control issue?**
 
     - Troubleshoot RBAC issues by examining Pod service accounts, role bindings, and cluster roles. Ensure that appropriate permissions are granted to the Pod's service account, and consider creating custom RBAC roles and bindings if
+
+## Helm
+
+- What is Helm and why is it used?
+- How do you create a Helm chart?
+- What are the main components of a Helm chart?
+- How do you manage dependencies in Helm?
+- Explain the process of releasing a command with Helm.
+- How do you roll back a Helm release?

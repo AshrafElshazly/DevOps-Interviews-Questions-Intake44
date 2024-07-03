@@ -231,18 +231,14 @@
 
 - An application deployed on AWS Lambda is exceeding its memory limits. What can you do to troubleshoot and fix the issue?
 
-# CI/CD Cycle
-
-## Continuous Integration (CI)
-
-### Image Scan
-
-- Use [Trivy](https://trivy.dev/) for scanning images.
-
 ### Branch Management
 
 - **Branch Protection Rules**
 - **Branch Strategies**
+
+# CI/CD Cycle
+
+## Continuous Integration (CI)
 
 ### Pull Request Process
 
@@ -251,6 +247,10 @@
 - Build Process
 - Unit Testing
 - Security Scanning
+
+### Image Scan
+
+- Use [Trivy](https://trivy.dev/) for scanning images.
 
 ### API Management
 
@@ -271,10 +271,6 @@
 ### Versioning
 
 - Use semantic versioning.
-
-### Architecture
-
-- Maintain both high-level and low-level architecture documentation.
 
 ## Production Deployment
 
